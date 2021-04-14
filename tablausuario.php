@@ -15,16 +15,24 @@
 			var persona= $json;
 		 </script>";
 	?>
-	<div id="cont">
+	<div>
+		<table id="cont">
+			
+		</table>
 		
 	</div>
 	<script>
-		let resul = "<table>"
+		let resul = "<th>Id</th><th>Nombre</th><th>Edad</th><th>Cuidad</th>";
 		//console.log(persona);
 		for (var i = 0;i<persona["personas"].length;i++) {
-			resul = resul + "<tr>" + persona["personas"][i].nombre + "</tr>";
+			//resul = resul + "<tr>" + persona["personas"][i].nombre + "</tr>";
+			resul+= "<tr><td>" + persona["personas"][i].idpersona + "</td>";
+			resul+= "<td>" + persona["personas"][i].nombre + "</td>";
+			resul+= "<td>" + persona["personas"][i].edad + "</td>";
+			resul+= "<td>" + persona["personas"][i].cuidad + "</td></tr>";
+
 		}
-		resul = resul + "</table>";
+		
 		document.getElementById("cont").innerHTML=resul;
 	</script>
 
