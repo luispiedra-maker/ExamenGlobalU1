@@ -19,10 +19,13 @@
 		
 	</div>
 	<script>
-		console.log(persona);
-		for (var i = 0;Things.length - 1; i >= 0; i--) {
-			0;Things[i]
+		let resul = "<table>"
+		//console.log(persona);
+		for (var i = 0;i<persona["personas"].length;i++) {
+			resul = resul + "<tr>" + persona["personas"][i].nombre + "</tr>";
 		}
+		resul = resul + "</table>";
+		document.getElementById("cont").innerHTML=resul;
 	</script>
 
 </body>
