@@ -17,9 +17,12 @@
 			$this->sentencia = "SELECT * FROM persona";
 			$res = $this->obtenerSentencia();
 			$personas = array();
-			while($fila = $rex->fetch_assoc()){
+			while($fila = $res->fetch_assoc()){
 				$personas["personas"][] = $fila;
+
 			}
+			$this->cerrarConexion();
+			return $personas;
 		}
 
 	}
