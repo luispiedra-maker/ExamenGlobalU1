@@ -1,0 +1,50 @@
+<alumno>
+	<nombre>Alumno1</nombre>
+	<carrera>Carrera1</carrera>
+	<cuatri>1</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno2</nombre>
+	<carrera>Carrera2</carrera>
+	<cuatri>2</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno3</nombre>
+	<carrera>Carrera3</carrera>
+	<cuatri>3</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno4</nombre>
+	<carrera>Carrera4</carrera>
+	<cuatri>4</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno5</nombre>
+	<carrera>Carrera5</carrera>
+	<cuatri>5</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno6</nombre>
+	<carrera>Carrera6</carrera>
+	<cuatri>6</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno7</nombre>
+	<carrera>Carrera7</carrera>
+	<cuatri>7</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno8</nombre>
+	<carrera>Carrera8</carrera>
+	<cuatri>8</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno9</nombre>
+	<carrera>Carrera9</carrera>
+	<cuatri>9</cuatri>
+</alumno>
+<alumno>
+	<nombre>Alumno10</nombre>
+	<carrera>Carrera10</carrera>
+	<cuatri>10</cuatri>
+</alumno>
